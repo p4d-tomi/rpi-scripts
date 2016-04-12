@@ -19,6 +19,6 @@ fi
 
 # boot-notification script
 #/usr/local/bin/node /home/pi/rpi-scripts/boot-notification/boot-notification.js
-(sleep 10;/usr/local/bin/node /home/pi/rpi-scripts/boot-notification/boot-notification.js)&
+(sleep 30;/usr/local/bin/node /home/pi/rpi-scripts/boot-notification/boot-notification.js)&
 
 exit 0

@@ -5,7 +5,7 @@
 
 cd ~
 
-if cd rpi-scripts; then
+if [cd rpi-scripts] then
   git pull
 else
   git clone https://github.com/p4d-tomi/rpi-scripts.git

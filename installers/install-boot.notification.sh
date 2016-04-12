@@ -4,10 +4,12 @@
 # Run it like this: "curl -s link-to-github.sh | sudo sh"
 
 cd ~
-if cd rpi-scripts;
-then git pull;
-else git clone https://github.com/p4d-tomi/rpi-scripts.git;
-fi;
+
+if cd rpi-scripts; then
+  git pull
+else
+  git clone https://github.com/p4d-tomi/rpi-scripts.git
+fi
 
 cd ~/rpi-scripts/boot-notification
 npm install

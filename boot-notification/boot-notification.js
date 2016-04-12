@@ -19,7 +19,8 @@ var msg = {
 	title: "Raspberry Pi - Boot"
 };
 
+//console.log("Sending notification ...");
 pushover.send( msg, function( err, result ) {
-	if ( err ) throw err;
-	console.log( result );
+	//if ( err ) throw err;
+	//console.log( result );
 });

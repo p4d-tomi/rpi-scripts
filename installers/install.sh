@@ -1,4 +1,9 @@
 
+# Expand Root FS
+#sudo raspi-config --expand-rootfs
+#sudo reboot
+
+
 # Install Node.js v4.0.0
 curl -s https://raw.githubusercontent.com/p4d-tomi/rpi-scripts/master/installers/install-node.sh | sudo sh
 

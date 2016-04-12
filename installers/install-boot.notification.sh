@@ -5,9 +5,11 @@
 
 if [ ! -d "~/rpi-scripts" ]
 then
+    echo "RPi scripts not found. Cloning from GitHub"
     cd ~
     git clone https://github.com/p4d-tomi/rpi-scripts.git
 else
+    echo "RPi scripts found. Pulling from GitHub"
     cd rpi-scripts
     git pull
 fi

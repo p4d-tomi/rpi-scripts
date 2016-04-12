@@ -3,7 +3,7 @@
 # This script installs boot-notification.js for ARM into ~/scripts
 # Run it like this: "curl -s link-to-github.sh | sudo sh"
 
-if [ ! -d "/home/pi/rpi-scripts" ]
+if [ ! -d /home/pi/rpi-scripts ]
 then
     echo "RPi scripts not found. Cloning from GitHub"
     cd /home/pi

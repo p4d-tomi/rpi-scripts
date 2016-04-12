@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This script installs boot-notification.js for ARM into ~/scripts
 # Run it like this: "curl -s link-to-github.sh | sudo sh"

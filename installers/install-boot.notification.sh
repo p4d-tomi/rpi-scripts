@@ -15,5 +15,6 @@ else
 fi
 
 
+echo "Installing dependencies ..."
 cd /home/pi/rpi-scripts/boot-notification
 npm install

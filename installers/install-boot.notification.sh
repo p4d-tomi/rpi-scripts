@@ -10,7 +10,7 @@ then
     git clone --verbose https://github.com/p4d-tomi/rpi-scripts.git
 else
     echo "RPi scripts found. Pulling from GitHub"
-    cd rpi-scripts
+    cd /home/pi/rpi-scripts
     git pull
 fi
 

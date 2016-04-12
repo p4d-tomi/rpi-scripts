@@ -5,11 +5,14 @@
 
 cd ~
 
-if [cd rpi-scripts] then
-  git pull
+if [ ! -d "rpi-scripts" ]
+then
+    git clone https://github.com/p4d-tomi/rpi-scripts.git
 else
-  git clone https://github.com/p4d-tomi/rpi-scripts.git
+    cd rpi-scripts
+    git pull
 fi
+
 
 cd ~/rpi-scripts/boot-notification
 npm install
